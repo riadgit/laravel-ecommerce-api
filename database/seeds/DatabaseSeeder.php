@@ -1,7 +1,7 @@
 <?php
 
-use App\Modle\Product;
-use App\Modle\Review;
+use App\Model\Product;
+use App\Model\Review;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder

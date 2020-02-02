@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Modle\Review;
+use App\Model\Review;
 use Illuminate\Http\Request;
 
 class ReviewController extends Controller
@@ -41,7 +41,7 @@ class ReviewController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Modle\Review  $review
+     * @param  \App\Model\Review  $review
      * @return \Illuminate\Http\Response
      */
     public function show(Review $review)
@@ -52,7 +52,7 @@ class ReviewController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Modle\Review  $review
+     * @param  \App\Model\Review  $review
      * @return \Illuminate\Http\Response
      */
     public function edit(Review $review)
@@ -64,7 +64,7 @@ class ReviewController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Modle\Review  $review
+     * @param  \App\Model\Review  $review
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Review $review)
@@ -75,7 +75,7 @@ class ReviewController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Modle\Review  $review
+     * @param  \App\Model\Review  $review
      * @return \Illuminate\Http\Response
      */
     public function destroy(Review $review)

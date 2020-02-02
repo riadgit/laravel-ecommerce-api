@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Modle;
+namespace App\Model;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Review extends Model
+class Product extends Model
 {
     //
 }

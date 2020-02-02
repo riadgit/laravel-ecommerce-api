@@ -2,8 +2,8 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
-use App\Modle\Product;
-use App\Modle\Review;
+use App\Model\Product;
+use App\Model\Review;
 use Faker\Generator as Faker;
 
 $factory->define(Review::class, function (Faker $faker) {
